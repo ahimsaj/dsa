@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int a,b,n;
+   cout<<"enter 2 no.";
+   cin>>a>>b;
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   cout<<"swapped no. "<<a<<" "<<b<<endl;
+    return 0;
+}
